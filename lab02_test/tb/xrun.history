@@ -1,0 +1,12 @@
+#e1(22Jul2025:18:16:18): source ./xcelium.d/env.d/env.history.22Jul2025_18_16_18
+s1(22Jul2025:18:16:18):  xrun -f run.f 
+#e2(22Jul2025:18:17:23): source ./xcelium.d/env.d/env.history.22Jul2025_18_17_23
+s2(22Jul2025:18:17:23):  xrun -f run.f 
+#e3(22Jul2025:18:23:28): source ./xcelium.d/env.d/env.history.22Jul2025_18_23_28
+s3(22Jul2025:18:23:28):  xrun -f run.f 
+#e4(25Jul2025:13:16:07): source ./xcelium.d/env.d/env.history.25Jul2025_13_16_07
+s4(25Jul2025:13:16:07):  xrun -f run.f 
+#e5(25Jul2025:13:17:01): source ./xcelium.d/env.d/env.history.25Jul2025_13_17_01
+s5(25Jul2025:13:17:01):  xrun -f run.f 
+#e6(25Jul2025:13:17:26): source ./xcelium.d/env.d/env.history.25Jul2025_13_17_26
+s6(25Jul2025:13:17:26):  xrun -f run.f 

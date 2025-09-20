@@ -1,0 +1,4 @@
+#e1(09Aug2025:19:56:42): source ./xcelium.d/env.d/env.history.09Aug2025_19_56_42
+s1(09Aug2025:19:56:42):  xrun -uvmhome default +uvm_set_config_string=*,uvm_reg_generate_access_file_seq::file_name,access_file ./cdns_uvmreg_utils_pkg.sv ./yapp_router_regs_rdb.sv ./quicktest.sv -log xrun_gen_access.log +UVM_TESTNAME=access_test 
+#e2(09Aug2025:19:56:53): source ./xcelium.d/env.d/env.history.09Aug2025_19_56_53
+s2(09Aug2025:19:56:53):  xrun -uvmhome default ./cdns_uvmreg_utils_pkg.sv ./yapp_router_regs_rdb.sv ./quicktest.sv -vclass_ext +UVM_TESTNAME=qt_test 

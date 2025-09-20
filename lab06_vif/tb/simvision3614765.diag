@@ -1,0 +1,88 @@
+*** Message Type: info ***
+When: Tue Jul 29 05:55:52 PM EDT 2025
+SimVision started.
+Version: TOOL:  simvision(64)   24.03-s005
+User: dwvshep
+Host: caen-vnc-mi06.engin.umich.edu
+Platform: Linux/x86_64/4.18.0-553.34.1.el8_10.x86_64
+Started: Tue Jul 29 05:55:52 PM EDT 2025
+Command: /usr/caen/xcelium-24.03.005/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:caen-vnc-mi06.engin.umich.edu:47185 -64BIT -nocopyright
+Work Directory: /home/dwvshep/UVM_Cert_Labs/uvma_training_1.2.6rev1/uvm/lab06_vif/tb
+ 
+*** Message Type: info ***
+When: Tue Jul 29 05:55:52 PM EDT 2025
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Tue Jul 29 05:55:54 PM EDT 2025
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Tue Jul 29 05:55:56 PM EDT 2025
+Connect to Simulator
+      Design: worklib.hw_top:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       24.03-s005
+        User: dwvshep
+        Host: caen-vnc-mi06.engin.umich.edu
+Time Started: Tue Jul 29 05:55:49 PM EDT 2025
+  Process ID: 3614601
+   Directory: /home/dwvshep/UVM_Cert_Labs/uvma_training_1.2.6rev1/uvm/lab06_vif/tb
+     Command: xrun -f run.f -gui -access rwc
+
+ 
+*** Message Type: info ***
+When: Tue Jul 29 05:55:58 PM EDT 2025
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Tue Jul 29 05:56:48 PM EDT 2025
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Tue Jul 29 06:26:14 PM EDT 2025
+Exit XM-Sim: user
+      Design: worklib.hw_top:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       24.03-s005
+        User: dwvshep
+        Host: caen-vnc-mi06.engin.umich.edu
+Time Started: Tue Jul 29 05:55:49 PM EDT 2025
+  Process ID: 3614601
+   Directory: /home/dwvshep/UVM_Cert_Labs/uvma_training_1.2.6rev1/uvm/lab06_vif/tb
+     Command: xrun -f run.f -gui -access rwc
+
+ 
+*** Message Type: error ***
+When: Tue Jul 29 06:26:15 PM EDT 2025
+XM-Sim Crashed:
+      Design: worklib.hw_top:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:        xmsim(64)       24.03-s005
+        User: dwvshep
+        Host: caen-vnc-mi06.engin.umich.edu
+Time Started: Tue Jul 29 05:55:49 PM EDT 2025
+  Process ID: 3614601
+   Directory: /home/dwvshep/UVM_Cert_Labs/uvma_training_1.2.6rev1/uvm/lab06_vif/tb
+     Command: xrun -f run.f -gui -access rwc
+      Design: worklib.hw_top:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:       xmsim(64)       24.03-s005
+        User: dwvshep
+        Host: caen-vnc-mi06.engin.umich.edu
+Time Started: Tue Jul 29 05:55:49 PM EDT 2025
+  Process ID: 3614601
+   Directory: /home/dwvshep/UVM_Cert_Labs/uvma_training_1.2.6rev1/uvm/lab06_vif/tb
+     Command: xrun -f run.f -gui -access rwc
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Tue Jul 29 06:26:18 PM EDT 2025
+SimVision Exit.
+ 

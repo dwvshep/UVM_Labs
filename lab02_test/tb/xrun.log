@@ -1,0 +1,118 @@
+xrun(64): 24.03-s005: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	24.03-s005: Started on Jul 25, 2025 at 13:17:25 EDT
+xrun
+	-f run.f
+		-64
+		-uvmhome /usr/caen/xcelium-24.03.005/tools/methodology/UVM/CDNS-1.1d
+		-incdir ../sv
+		../sv/yapp_pkg.sv
+		top.sv
+		+UVM_TESTNAME=base_test
+		+UVM_VERBOSITY=UVM_HIGH
+
+   User defined plus("+") options:
+	+UVM_VERBOSITY=UVM_HIGH
+
+file: top.sv
+	module worklib.top:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		yapp_pkg
+		top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.top:sv <0x42b549a1>
+			streams:  42, words: 26571
+		worklib.yapp_pkg:sv <0x43bbd1a3>
+			streams:  24, words: 67001
+		worklib.cdns_uvm_pkg:sv <0x11ecd099>
+			streams: 172, words: 248139
+		worklib.cdns_uvmapi:svp <0x0958d24e>
+			streams:  27, words: 28687
+		worklib.cdns_assert2uvm_pkg:sv <0x0f63c117>
+			streams:   3, words:  1654
+		worklib.uvm_pkg:sv <0x6648a47f>
+			streams: 4534, words: 6798654
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Modules:                        1       1
+		Verilog packages:               5       5
+		Registers:                 12,890  10,090
+		Named events:                   4      12
+		Initial blocks:               258     148
+		Parallel blocks:               26      27
+		Assertions:                     2       2
+		SV Class declarations:        192     306
+		SV Class specializations:     343     343
+	Writing initial simulation snapshot: worklib.top:sv
+Loading snapshot worklib.top:sv .................... Done
+SVSEED default: 1
+xcelium> source /usr/caen/xcelium-24.03.005/tools/xcelium/files/xmsimrc
+xcelium> source /usr/caen/xcelium-24.03.005/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (24.03-s005)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+UVM_INFO router_test_lib.sv(13) @ 0: uvm_test_top [BASE_TEST_CLASS] Build Phase!
+UVM_INFO router_tb.sv(11) @ 0: uvm_test_top.tb [ROUTER_TB_CLASS] Build Phase!
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+------------------------------------
+Name          Type       Size  Value
+------------------------------------
+uvm_test_top  base_test  -     @2550
+  tb          router_tb  -     @2616
+------------------------------------
+
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    4
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[BASE_TEST_CLASS]     1
+[RNTST]     1
+[ROUTER_TB_CLASS]     1
+[UVMTOP]     1
+Simulation complete via $finish(1) at time 0 FS + 179
+/usr/caen/xcelium-24.03.005/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
+xcelium> exit
+TOOL:	xrun(64)	24.03-s005: Exiting on Jul 25, 2025 at 13:17:39 EDT  (total: 00:00:14)

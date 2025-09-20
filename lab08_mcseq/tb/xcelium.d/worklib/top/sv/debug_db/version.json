@@ -1,0 +1,20 @@
+{
+    "xlm_snapshot": "top",
+    "xlm_lib": "worklib",
+    "xlm_view": "sv",
+    "lwd_version": "07\/29\/24+04:58:15",
+    "install_root": "\/usr\/caen\/xcelium-24.03.005",
+    "xlm_version": "24.03-s005",
+    "build_date": "2024.07.29",
+    "xlm_plat": "x86_64",
+    "xlm_bits": "64",
+    "real_as_wreal": "0",
+    "reals_recorded": "0",
+    "features":
+    {
+        "AVSREQ_195145": "1",
+        "INDAGO_61196": "1",
+        "AVSREQ_206414": "0",
+        "AVSREQ_211639": "0"
+    }
+}

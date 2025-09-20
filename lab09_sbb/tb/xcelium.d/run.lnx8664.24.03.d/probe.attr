@@ -1,0 +1,16 @@
+lwd_dir /home/dwvshep/UVM_Cert_Labs/uvma_training_1.2.6rev1/uvm/lab05_seq/tb/xcelium.d/worklib/top/sv/debug_db/top/../..
+snapshot_name worklib.top:sv
+cells 1
+hostname caen-vnc-mi06.engin.umich.edu
+work_directory /home/dwvshep/UVM_Cert_Labs/uvma_training_1.2.6rev1/uvm/lab05_seq/tb
+autofetch 0
+persistent_sources 0
+cdslib ./xcelium.d/run.lnx8664.24.03.d/cds.lib
+cds_implicit_tmplib worklib
+hdlvar ./xcelium.d/run.lnx8664.24.03.d/hdl.var
+platform x86_64
+bits 64
+du-agent YES
+xprop 0
+automsie 0
+cds_libs /home/dwvshep/UVM_Cert_Labs/uvma_training_1.2.6rev1/uvm/lab05_seq/tb/xcelium.d/run.lnx8664.24.03.d/cds.lib /home/dwvshep/UVM_Cert_Labs/uvma_training_1.2.6rev1/uvm/lab05_seq/tb/xcelium.d/run.lnx8664.24.03.d/cdsrun.lib /usr/caen/xcelium-24.03.005/tools/inca/files/cds.lib /usr/caen/xcelium-24.03.005/tools/inca/files/cdsvhdl.lib /usr/caen/xcelium-24.03.005/tools/inca/files/cdsvlog.lib /usr/caen/xcelium-24.03.005/tools/transrecord/files/cds.lib /usr/caen/xcelium-24.03.005/tools/affirma_ams/etc/connect_lib/cds.lib /usr/caen/xcelium-24.03.005/tools/affirma_ams/etc/dms/cds.lib
